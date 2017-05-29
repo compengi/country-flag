@@ -1,5 +1,7 @@
 # Country Flag Add-on for Vaadin 8
 
+[![Build Status](https://travis-ci.org/mvysny/country-flag.svg?branch=master)](https://travis-ci.org/mvysny/country-flag)
+
 Country Flag is a UI component add-on for Vaadin 8 which shows Country Flags. It uses the https://github.com/lipis/flag-icon-css
 project. The flags are self-hosted in the add-on jar file, so the flags are not downloaded from some third-party server.
 
