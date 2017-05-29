@@ -8,6 +8,18 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>Country Flag Add-on Root Project</name>
 
+    <scm>
+        <url>git://github.com/mvysny/country-flag.git</url>
+        <connection>scm:git:git://github.com/mvysny/country-flag.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:/mvysny/country-flag.git</developerConnection>
+        <tag>CountryFlag add-on for Vaadin</tag>
+    </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/mvysny/country-flag/issues</url>
+    </issueManagement>
+
 	<prerequisites>
 		<maven>3</maven>
 	</prerequisites>
