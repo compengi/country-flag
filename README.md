@@ -7,7 +7,7 @@ project. The flags are self-hosted in the add-on jar file, so the flags are not 
 
 ## Download release
 
-Official releases of this add-on are available at Vaadin Directory. For Maven instructions, download and reviews, go to http://vaadin.com/addon/country-flag
+Official releases of this add-on are available at Vaadin Directory. For Maven instructions, download and reviews, go to https://vaadin.com/directory#!addon/country-flag-add-on
 
 ## Building and running demo
 
