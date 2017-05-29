@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.vaadin.addons.countryflag</groupId>
 	<artifactId>country-flag-root</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>Country Flag Add-on Root Project</name>
 
     <scm>
         <url>git://github.com/mvysny/country-flag.git</url>
         <connection>scm:git:git://github.com/mvysny/country-flag.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mvysny/country-flag.git</developerConnection>
-    </scm>
+      <tag>country-flag-root-1.0.1</tag>
+  </scm>
 
     <issueManagement>
         <system>GitHub</system>
