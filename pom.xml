@@ -12,7 +12,6 @@
         <url>git://github.com/mvysny/country-flag.git</url>
         <connection>scm:git:git://github.com/mvysny/country-flag.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mvysny/country-flag.git</developerConnection>
-        <tag>CountryFlag add-on for Vaadin</tag>
     </scm>
 
     <issueManagement>
