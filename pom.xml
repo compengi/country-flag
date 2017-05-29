@@ -4,14 +4,14 @@
 	<groupId>org.vaadin.addons.countryflag</groupId>
 	<artifactId>country-flag-root</artifactId>
 	<packaging>pom</packaging>
-	<version>1.0.1</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>Country Flag Add-on Root Project</name>
 
     <scm>
         <url>git://github.com/mvysny/country-flag.git</url>
         <connection>scm:git:git://github.com/mvysny/country-flag.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:/mvysny/country-flag.git</developerConnection>
-      <tag>country-flag-root-1.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <issueManagement>

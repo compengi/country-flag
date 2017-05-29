@@ -4,7 +4,7 @@
 	<groupId>org.vaadin.addons.countryflag</groupId>
 	<artifactId>country-flag-demo</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.1</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>Country Flag Add-on Demo</name>
 
 	<prerequisites>
