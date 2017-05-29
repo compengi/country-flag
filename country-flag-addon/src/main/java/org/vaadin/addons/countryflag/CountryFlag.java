@@ -19,7 +19,7 @@ public class CountryFlag extends CustomComponent {
     private String country = null;
 
     /**
-     * Creates the component. The component will not initially show any flag.
+     * Creates the component. The component will not initially show any flag. The component is initially of size 120px x 90px.
      */
     public CountryFlag() {
         setWidth("120px");
@@ -30,22 +30,36 @@ public class CountryFlag extends CustomComponent {
 
     /**
      * Creates the component, showing given flag.
+     * @param country see {@link #setCountry(String)} for details.
      */
     public CountryFlag(String country) {
         this();
         setCountry(country);
     }
 
+    /**
+     * Creates the component, showing given flag.
+     * @param country see {@link #setCountry(String)} for details.
+     * @param isSquared see {@link #setSquared(boolean)} for details.
+     */
     public CountryFlag(String country, boolean isSquared) {
         this();
         setCountry(country);
         setSquared(isSquared);
     }
 
+    /**
+     * Checks whether the flag is drawn using width-to-height ratio of 1:1 (true, squared) or 4:3 (false, the default).
+     * @return true if squared, defaults to false.
+     */
     public boolean isSquared() {
         return getStyleName().contains("flag-icon-squared");
     }
 
+    /**
+     * Configures whether the flag is drawn using width-to-height ratio of 1:1 (true, squared) or 4:3 (false, the default).
+     * @param squared true if squared, defaults to false.
+     */
     public void setSquared(boolean squared) {
         this.squared = squared;
         updateStyle();
