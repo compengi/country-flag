@@ -10,7 +10,7 @@ Official releases of this add-on are available at Vaadin Directory. For Maven in
 ## Building and running demo
 
 ```bash
-git clone <url of the MyComponent repository>
+git clone https://github.com/mvysny/country-flag
 mvn clean install
 cd country-flag-demo
 mvn jetty:run
@@ -35,24 +35,14 @@ Note that Eclipse may give "Plugin execution not covered by lifecycle configurat
 
 ### Debugging server-side
 
-If you have not already compiled the widgetset, do it now by running vaadin:install Maven target for country-flag-root project.
-
 If you have a JRebel license, it makes on the fly code changes faster. Just add JRebel nature to your country-flag-demo project by clicking project with right mouse button and choosing JRebel > Add JRebel Nature
 
-To debug project and make code modifications on the fly in the server-side, right-click the country-flag-demo project and choose Debug As > Debug on Server. Navigate to http://localhost:8080/country-flag-demo/ to see the application.
+To debug project and make code modifications on the fly in the server-side, right-click the country-flag-demo project and choose Debug As > Debug on Server. Navigate to http://localhost:8080/ to see the application.
 
-### Debugging client-side
-
-Debugging client side code in the country-flag-demo project:
-  - run "mvn vaadin:run-codeserver" on a separate console while the application is running
-  - activate Super Dev Mode in the debug window of the application or by adding ?superdevmode to the URL
-  - You can access Java-sources and set breakpoints inside Chrome if you enable source maps from inspector settings.
- 
 ## Release notes
 
 ### Version 1.0-SNAPSHOT
-- ...
-- ...
+- Initial versoin
 
 ## Roadmap
 
@@ -78,7 +68,7 @@ Contributions are welcome, but there are no guarantees that they are accepted as
 
 Add-on is distributed under Apache License 2.0. For license terms, see LICENSE.txt.
 
-MyComponent is written by <...>
+CountryFlag is written by Martin Vysny
 
 # Developer Guide
 
@@ -86,24 +76,10 @@ MyComponent is written by <...>
 
 Here is a simple example on how to try out the add-on component:
 
-<...>
+```java
+yourLayout.addComponent(new CountryFlag("fi"));
+```
+
+The flag is by default 150x120 px.
 
 For a more comprehensive example, see src/test/java/org/vaadin/template/demo/DemoUI.java
-
-## Features
-
-### Feature A
-
-<...>
-
-### Feature B
-
-<...>
-
-### Feature C
-
-<...>
-
-## API
-
-MyComponent JavaDoc is available online at <...>
